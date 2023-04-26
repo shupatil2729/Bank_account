@@ -7,9 +7,9 @@ public class ICICI_BANK implements Bank {
     ArrayList<customer> b1 = new ArrayList<>();
 
     {
-        customer c1 = new customer("sp", "1234", 5000);
-        customer c2 = new customer("sp", "1234", 5000);
-        customer c3 = new customer("sp", "1234", 5000);
+        customer c1 = new customer("a", "1231", 5000);
+        customer c2 = new customer("b", "1232", 5000);
+        customer c3 = new customer("c", "1233", 5000);
         b1.add(c1);
         b1.add(c2);
         b1.add(c3);
